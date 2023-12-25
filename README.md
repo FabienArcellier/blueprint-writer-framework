@@ -1,17 +1,25 @@
-## blueprint-python3
+## blueprint-streamsync
 
-[![ci](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml/badge.svg)](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml)
+[![ci](https://github.com/FabienArcellier/blueprint-streamsync/actions/workflows/main.yml/badge.svg)](https://github.com/FabienArcellier/blueprint-streamsync/actions/workflows/main.yml)
 
 
-blueprint to implement a simple spike with python3
+blueprint to implement a simple spike with [streamsync](https://github.com/streamsync-cloud/streamsync)
 
-* test python code
-* use jupyter notebook with python dependencies
+* prototype quick application with low code UI
+* build demo for streamsync
 * ...
 
-The implementation is compatible with python 3
-
 ## Getting started
+
+### Run in gitpod
+
+[gitpod](https://www.gitpod.io/) can be used as an IDE. You can load the code inside to try the code.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FabienArcellier/blueprint-streamsync)
+
+![using_gitpod.png](using_gitpod.png)
+
+### Run in local
 
 1. clone this repository
 
@@ -19,37 +27,17 @@ The implementation is compatible with python 3
 
 * [prepare the blueprint to start a new project](./prepare%20the%20blueprint.md)
 
+```bash
+alfred edit
+```
 
 ## The latest version
 
 You can find the latest version to ...
 
 ```bash
-git clone https://github.com/FabienArcellier/blueprint-python3.git
+git clone https://github.com/FabienArcellier/blueprint-streamsync.git
 ```
-
-## Usage
-
-You can run the application with the following command
-
-```bash
-python src/app/main.py
-```
-
-### Run in docker container
-
-You can run this template with docker. The manufactured image can be distributed and used to deploy your application to a production environment.
-
-```bash
-docker-compose build
-docker-compose run app
-```
-
-### Run in gitpod
-
-[gitpod](https://www.gitpod.io/) can be used as an IDE. You can load the code inside to try the code.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FabienArcellier/blueprint-python3)
 
 ## Developper guideline
 

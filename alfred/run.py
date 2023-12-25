@@ -7,5 +7,22 @@ def run():
 
     >>> $ alfred run
     """
-    python = alfred.sh("python", "python should be present")
-    alfred.run(python, ['src/app/main.py'])
+    streamsync = alfred.sh("streamsync", "streamsync should be present")
+    alfred.run(streamsync, ['run', 'src/app'])
+
+
+@alfred.command("edit", help="design the application")
+@alfred.option("--remote", help="enable edition through public connection", is_flag=True)
+def edit(remote: bool = False):
+    """
+    execute the application in edition mode
+
+    >>> $ alfred edit
+    """
+    args = []
+    if remote:
+        args.append('--enable-remote-edit')
+    args += ['edit', 'src/app']
+
+    streamsync = alfred.sh("streamsync", "streamsync should be present")
+    alfred.run(streamsync, args)

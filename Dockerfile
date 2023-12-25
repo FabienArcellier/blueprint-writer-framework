@@ -19,4 +19,4 @@ USER user
 WORKDIR /app
 
 ENV PATH="/app/.venv/bin:$PATH"
-CMD ["python", "src/app/main.py"]
+CMD ["streamsync", "run", "src/app"]

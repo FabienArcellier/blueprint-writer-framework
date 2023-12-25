@@ -3,7 +3,7 @@
 1. change the project metadata into `./pyproject.toml`
 
 ```toml
-name = "blueprint-python3"
+name = "blueprint-streamsync"
 description = "blueprint to implement a python application"
 authors = ["Fabien Arcellier <fabien.arcellier@gmail.com>"]
 license = "MIT"
