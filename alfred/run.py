@@ -7,7 +7,7 @@ def run():
 
     >>> $ alfred run
     """
-    streamsync = alfred.sh("streamsync", "streamsync should be present")
+    streamsync = alfred.sh("writer", "writer should be present")
     alfred.run(streamsync, ['run', 'src/app'])
 
 
@@ -24,5 +24,5 @@ def edit(remote: bool = False):
         args.append('--enable-remote-edit')
     args += ['edit', 'src/app']
 
-    streamsync = alfred.sh("streamsync", "streamsync should be present")
+    streamsync = alfred.sh("writer", "writer should be present")
     alfred.run(streamsync, args)

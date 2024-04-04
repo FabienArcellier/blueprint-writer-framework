@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "blueprint-streamsync"
-description = "blueprint to implement streamsync app - low code with python"
+name = "blueprint-writer-framework"
+description = "blueprint to implement writer framework app - low code with python"
 authors = ["Fabien Arcellier <fabien.arcellier@gmail.com>"]
 license = "MIT"
 version = "1.0.0"
@@ -17,7 +17,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.10"
 python-dotenv = "^1.0.0"
-streamsync = "^0.2.7"
+writer = "^0.7.0"
 
 
 

@@ -1,12 +1,12 @@
-## blueprint-streamsync
+## blueprint-writer-framework
 
 [![ci](https://github.com/FabienArcellier/blueprint-streamsync/actions/workflows/main.yml/badge.svg)](https://github.com/FabienArcellier/blueprint-streamsync/actions/workflows/main.yml)
 
 
-blueprint to implement a simple spike with [streamsync](https://github.com/streamsync-cloud/streamsync)
+blueprint to implement a simple spike with [writer-framework](https://github.com/writer/writer-framework)
 
 * prototype quick application with low code UI
-* build demo for streamsync
+* build demo for writer-framework
 * ...
 
 ## Getting started
@@ -36,7 +36,7 @@ alfred edit
 You can find the latest version to ...
 
 ```bash
-git clone https://github.com/FabienArcellier/blueprint-streamsync.git
+git clone https://github.com/FabienArcellier/blueprint-writer-framework.git
 ```
 
 ## Developper guideline
@@ -96,7 +96,7 @@ I have to regularly rebuild it to update dependencies.
 
 MIT License
 
-Copyright (c) 2018-2023 Fabien Arcellier
+Copyright (c) 2018-2024 Fabien Arcellier
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
