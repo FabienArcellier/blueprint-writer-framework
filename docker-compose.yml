@@ -6,4 +6,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./src/:/app/src
+    ports:
+        - "3005:3005"
     init: true

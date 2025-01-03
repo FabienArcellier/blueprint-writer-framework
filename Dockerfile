@@ -19,4 +19,4 @@ USER user
 WORKDIR /app
 
 ENV PATH="/app/.venv/bin:$PATH"
-CMD ["streamsync", "run", "src/app"]
+CMD ["writer", "run", "src/app"]
